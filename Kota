@@ -1,0 +1,17 @@
+private E element;
+
+    public kota(E kota){
+        element = kota;
+    }
+
+    public E getElement(){
+        return element;
+    }
+
+    public static void main(String[] args) {
+        Latihan1Modul1<Integer> jumlahKota = new Latihan1Modul1<Integer>(9);
+        Latihan1Modul1<String> namaKota = new Latihan1Modul1<String>("Malang");
+        System.out.println("Jumlah Kota di Jawa Timur: "+ jumlahKota.getElement() + " Kota");
+        System.out.println("Salah satu kota di jawa timur : Kota" + namaKota.getElement());
+
+    }
